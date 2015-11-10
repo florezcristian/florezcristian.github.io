@@ -11,6 +11,10 @@ font-family: "Lucida Sans Unicode", sans-serif;
 background-image:url(https://static.pexels.com/photos/7909/pexels-photo.jpg);
 background-size: cover;
 }
+header{
+	padding: 110px
+}
+	
 a{
   color: white;
 }
@@ -25,6 +29,7 @@ h1 {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 20px;
 }
+
 h2 {
 	color: Floralwhite;
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -39,22 +44,103 @@ p{
   font-family: 'Questrial', sans-serif;
   font-size: 15px;
 }
+h4 { 
+  color: Black;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+#what-i-do{
+	background-color: #fff;
+	overflow:hidden;
+	padding: 20px;
+}
+article{
+	padding: 10px;
+	width: 270px;
+	float: left;
+	background-color:#black 
+	margin: 5px;
+	height: 150px;
+	border-radius: 3px;
+}
+#who-i-am{
+	color: white;
+	background-color: #363636;
+	padding: 20px;
+}
+    .container{
+      width: 900px;
+      /*centering*/
+      margin: 0 auto;
+	}
+	#how-i-work{
+	background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark-sharp-edges.png);
+	padding: 20px;
+	overflow:hidden;
+}
+.one-third{
+	width: 300px;
+	float: left;
+	text-align: justify;
+}
+.two-thirds{
+	/*total width: 600px*/
+	width: 580px;
+	float: left;
+	text-align: justify;
+	margin-right: 20px;
+}
 </style>
 </head>
 <body>
-<img src="http://i.imgur.com/Te2Yi8z.png?1" alt="Personal Logo"> 
-<a href="http://cristianflorez.me/about.html"><h3>About Me</h3></a>
+<header>
+<img src="http://i.imgur.com/Te2Yi8z.png?1" alt="Personal Logo" width="200">  
 <h1> Advertister </h1>
 <p>We are based in Miami and located in the heart of the Art and Entertainment District </p>
 <h2>Welcome to my new website.
 It's under construction.
 Please check back soon!</h2>
+</header>
+<section id="what-i-do">
+<div class="container">
+<h1>What I do</h1>
 
+<article>
+<i class="fa fa-laptop fa-2x"></i>
+  <h4>Portafolio</h4></article>
+<article>
+<i class="fa fa-mobile fa-2x"></i>
+  <a href="http://cristianflorez.me/about.html"><h4>About Me</h4></a></article>
+<article>
+<i class="fa fa-cog fa-2x"></i>
+  <h4>Contact me </h4></article>
+</div>
+</section>
+<section id="who-i-am">
+<div class="container">
+<h1>Who I am</h1>
+<img src="http://i.imgur.com/0QAvjAX.png?3" width="150">
+  <p>
+    I am a student at the Ai Miami International University of Art & Design. Bachelor in Advertising. I am  from Bogota, Colombia.</p></article>
+</div>
+</section>
 
-
+<!-- Add a different background image -->
+<!-- thestocks.im -->
+<section id="how-i-work">
+    <div class="container"> 
+    <h1>How I work</h1>
+    <p class="two-thirds">I will take the time that is needed to get to you and your project. While we can meet online or offline, I prefer to kick start a new project with a personal meeting. Meet me in my office in downtown Miami or I'll come to you as long as you are in the South Florida area. After our initial meeting, you will receive a project proposal within less than 48 hours. The project proposal will contain the project timeline as well as the full quote. Check out my fees here.</p>
+    <p class="one-third">
+    	Meeting options: Phone, Skype, Google Hangouts
+    </p>
+    </div>
+</section>
 <footer>
+
 <a href="https://www.facebook.com/cristian.florez.5648"><i class="fa fa-facebook-official"></i></a>
 <a href="https://www.linkedin.com/profile/view?id=AAIAABoWzZsBPUc8yyKpe2JnorTMy9D4UrIarSA&trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin-square"></i></a>
 <a href="https://instagram.com/cristianflorez/"><i class="fa fa-instagram"></i></a>
 </footer>
 </body>
+
