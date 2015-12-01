@@ -74,7 +74,7 @@ article{
 	padding: 20px;
 }
     .container{
-      width: 500px;
+      width: 900px;
       /*centering*/
       margin: 0 auto;
 	}
@@ -117,6 +117,12 @@ color: #000;
 	height: 400px;
 }
 </style>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+
+
 </head>
 <body>
 <header>
@@ -126,6 +132,9 @@ color: #000;
 <h2>Welcome to my new website.
 It's under construction.
 Please check back soon!</h2>
+
+
+
 
 
 
@@ -148,7 +157,7 @@ Please check back soon!</h2>
 <section id="who-i-am">
 <div class="container">
 <h1>Who I am</h1>
-<img src="http://i.imgur.com/0QAvjAX.png?3" width="150">
+<a class="test-popup-link" href="http://i.imgur.com/0QAvjAX.png?1"><img src="http://i.imgur.com/0QAvjAX.png?3" width="150"></a>
   <p>
     I am a student at the Ai Miami International University of Art & Design. Bachelor in Advertising. I am  from Bogota, Colombia.</p></article>
 </div>
@@ -165,14 +174,14 @@ Please check back soon!</h2>
 </section>
 <section id="my-latest-work">
 <h1> My latest work</h1>
-<img src="http://i.imgur.com/iNtYQPA.jpg?1"> 
-<img src="http://i.imgur.com/X5FYdep.jpg?1"> 
-<img src="http://i.imgur.com/jgzPf7H.png?1"> 
+<!-- SnapWidget -->
+<iframe src="http://snapwidget.com/sc/?u=ZmxvcmV6Y2FjZXJlc2NyaXN0aWFufGlufDE1MHwzfDN8fHllc3wyMHxub25lfG9uU3RhcnR8eWVzfG5v&ve=011215" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:500px; height:250px"></iframe>
+ 
 </section>
 
 <section id="my-resume">
 <h1>My Resume</h1>
-<iframe src="<iframe src="https://drive.google.com/file/d/0B83OjeO_2iq_LW8ydEw3dGhOazQ/preview" width="640" height="480"></iframe>"></iframe>
+<iframe src="https://docs.google.com/document/d/1HNul0iUxaySfXzUs8EUDw-Iv-2QbKvzEWw68Z4msek4/pub?embedded=true"></iframe>
 </section>
 
 <footer>
@@ -180,4 +189,11 @@ Please check back soon!</h2>
 <a href="https://www.linkedin.com/profile/view?id=AAIAABoWzZsBPUc8yyKpe2JnorTMy9D4UrIarSA&trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin-square"></i></a>
 <a href="https://instagram.com/cristianflorez/"><i class="fa fa-instagram"></i></a>
 </footer>
+
+<script>
+$('.test-popup-link').magnificPopup({
+  type: 'image'
+  // other options
+});
+</script>
 </body>
