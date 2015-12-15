@@ -46,12 +46,12 @@
 }
 
 .neighborhood-guides{
-    background-color: grey;
+    background-color: white;
     border-bottom: 1px solid #dbdbdb;
 }
 
 .neighborhood-guides h2{
-    color: #393c3d;
+    color: grey;
     font-size: 40px;
 
 }
